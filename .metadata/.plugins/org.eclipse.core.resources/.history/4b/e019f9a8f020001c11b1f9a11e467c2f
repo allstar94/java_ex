@@ -1,0 +1,24 @@
+package πÈ»≠¡°;
+
+public class General {
+	protected String Client_Name;
+	protected int Client_age;
+	protected String Client_phone_num;
+	protected boolean consultant = false;
+	protected int bonus_point;
+	
+	public General (String Name, int age, String phone_num) {
+		Client_Name = Name;
+		Client_age = age;
+		Client_phone_num = phone_num;
+	}
+	
+	public void buy(int price) {
+		bonus_point += price*0.01;
+	}
+	public static void main(String[] args) {
+		
+		
+	}
+
+}
