@@ -1,0 +1,16 @@
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
+
+public class LottoGeneratorEx {
+	// ·Î¶Ç 6°³, 1~45
+	public static void main(String[] args) {
+		List<Integer> list = new ArrayList<Integer>();
+		Random rd = new Random();
+		
+		for(int i = 0; i < 6;i++) {
+			System.out.println("["+(rd.nextInt(45)+1)+"]");
+		}
+		
+	}
+}

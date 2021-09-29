@@ -1,0 +1,38 @@
+package List계열의클래스들예제;
+
+import java.util.List;
+import java.util.Vector;
+
+public class VectorClassEx {
+
+	public static void main(String[] args) {
+		String [] name = {"김진명", "최인호", "조정래","김홍신","박경리"};
+		
+		//Vector 객체 생성
+		//List<E> list = new Vector<E>(); // 일반적인 경우
+		List<String> list = new Vector<String>(4,3);
+
+		//Vector 클래스의 주요 메소드 적용
+		System.out.println("백터에 저장된 요소의 개수: " + list.size()); // 0이 출력됨!
+		System.out.println("백터의 용량은: " + ((Vector<String>)list).capacity()); // 4가 출력됨!
+	
+		for(int i = 0; i<name.length; i++) {
+			list.add(name[i]); //객체 추가
+		}
+
+		//Vector 클래스의 주요 메소드 적용
+		System.out.println("백터에 저장된 요소의 개수: " + list.size()); // 5이 출력됨!
+		System.out.println("백터의 용량은: " + ((Vector<String>)list).capacity()); // 7가 출력됨!
+	
+		//[김진명, 최인호, 조정래, 김홍신, 박경리]
+		System.out.println(list);
+		
+		list.add(2,"공지영");
+		System.out.println(list);
+
+		//객체 검색 get() 메소드, contains()
+		//최인호
+		System.out.println(list.get(1));
+	}
+
+}

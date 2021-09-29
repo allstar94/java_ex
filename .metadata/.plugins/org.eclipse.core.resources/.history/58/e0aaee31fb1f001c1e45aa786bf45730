@@ -1,0 +1,26 @@
+package 이메일유효성검사패턴;
+
+import java.util.Scanner;
+
+public class EmailRegexEx {
+
+	public static void main(String[] args) {
+		String email = null;
+		
+		System.out.print("이메일을 입력하세요:");
+		
+		Scanner scan = new Scanner(System.in);
+		email = scan.next();
+		
+		System.out.println(email);
+		
+		
+		String regax = "^\\w+@\\w+\\.\\w+(\\.\\w+)?";
+		boolean check = email.matches(regax);
+		if(check) {
+			System.out.println(email);
+		}
+		
+	}
+
+}

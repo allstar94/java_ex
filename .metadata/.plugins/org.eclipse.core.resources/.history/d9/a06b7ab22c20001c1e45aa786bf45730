@@ -1,0 +1,23 @@
+package Map계열의클래스들예제;
+
+import java.util.Hashtable;
+
+public class HashtableClassEx {
+
+	public static void main(String[] args) {
+		String[] userID = {"Lee","Kim","Jang","Wang","Ha"};
+		String[] password = {"L123","K456","J234","W896","H567"};
+		
+		//hashtable 객체 생성
+		//Hashtable<Key, Value>
+		Hashtable<String, String> ht = new Hashtable<String, String>(userID.length);
+		
+		for(int i = 0; i<userID.length;i++) {
+			ht.put(userID[i], password[i]);
+		}
+		
+		System.out.println(ht);
+		
+	}
+
+}
