@@ -2,6 +2,7 @@ package πÈ»≠¡°;
 
 public class CustomerTest {
 
+	
 	public static void main(String[] args) {
 		Customer customer1 = new Customer(1, "kim"); 
 		VIPCustomer customer2 = new VIPCustomer(2, "Lee", 33);
