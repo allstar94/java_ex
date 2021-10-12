@@ -15,6 +15,7 @@ public abstract class Car {
 	public void turnOff() {
 		System.out.println("시동을 끕니다.");
 	}
+	
 	//템플릿 메소드는 final 예약어를 사용해 선언한다. '틀'이 있는 메소드 의미
 	final public void run() {
 		startCar();

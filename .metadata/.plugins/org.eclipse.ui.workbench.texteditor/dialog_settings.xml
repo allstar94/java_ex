@@ -1,24 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
-		<item key="selection" value="package 빅데이터;"/>
+		<item key="selection" value="preData"/>
 		<item key="wrap" value="true"/>
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="incremental" value="false"/>
 		<item key="isRegEx" value="false"/>
 		<list key="findhistory">
-			<item value="package 빅데이터;"/>
-			<item value="package 주민번호로부터정보추출;"/>
+			<item value="preData"/>
+			<item value="predata"/>
+			<item value="pre"/>
+			<item value="addbtn"/>
+			<item value="`"/>
+			<item value="west.output.label[0]"/>
+			<item value="addBtn"/>
+			<item value="nextBtn"/>
+			<item value="nextbtn"/>
+			<item value="StateChange"/>
+			<item value="actionPerfor"/>
+			<item value="schul"/>
+			<item value="출신지역"/>
+			<item value="itemState"/>
+			<item value="readfileName"/>
 		</list>
 		<list key="replacehistory">
 		</list>
 	</section>
 	<section name="org.eclipse.ui.texteditor.FindReplaceDialog_dialogBounds">
-		<item key="DIALOG_X_ORIGIN" value="824"/>
-		<item key="DIALOG_Y_ORIGIN" value="268"/>
-		<item key="DIALOG_WIDTH" value="288"/>
-		<item key="DIALOG_HEIGHT" value="391"/>
+		<item key="DIALOG_X_ORIGIN" value="827"/>
+		<item key="DIALOG_Y_ORIGIN" value="359"/>
+		<item key="DIALOG_WIDTH" value="840"/>
+		<item key="DIALOG_HEIGHT" value="553"/>
 		<item key="DIALOG_FONT_NAME" value="1|맑은 고딕|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|맑은 고딕"/>
 	</section>
 </section>
